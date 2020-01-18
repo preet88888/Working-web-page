@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;	
+}
+#main
+{
+	height:800px;
+	width:100%;
+	/*border:5px groove #903;
+	box-sizing:border-box;*/
+	animation:preet 10s;
+	transition:all 5s;
+	animation-iteration-count:infinite;
+
+}
+@keyframes preet{
+	from{background-image:url(../../../Documents/Unnamed%20Site%202/bid2.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;}
+	to{background-image:url(../../../Documents/Unnamed%20Site%202/bid3.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;}
+}
+#blank
+{
+height:40px;
+width:100%;
+background-image:url(../images/lovely.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+/*position:fixed;
+top:0px;
+right:0px;
+bottom:50px;*/	
+}
+#search
+{
+height:40px;
+width:150px;
+margin:0 auto;	
+}
+#header
+{
+height:60px;
+width:100%;
+background:radial-gradient(#666,#C9C);	
+}
+#blank1
+{
+height:35px;
+width:100%;
+clear:both;
+}
+#table
+{
+	height:250px;
+	width:390px;
+	background:radial-gradient(#333,#CCC);
+	border:3px groove #903;
+	box-sizing:border-box;
+	margin:0 auto;
+	transition:all 1s;
+	clear:both;
+}
+#table:hover
+{
+transform:scale(1.2,1.2);
+}
+#blank3
+{
+height:35px;
+width:100%;
+clear:both;
+}
+#images
+{
+height:102px;
+width:100%;
+clear:both;
+}

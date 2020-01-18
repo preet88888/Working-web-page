@@ -1,0 +1,120 @@
+html, body 
+{
+  height: 100%;
+}
+body 
+{
+  display: flex;
+  flex-direction: column;
+}
+section
+{
+	background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: fixed;
+	flex: 1 0 auto;
+}
+footer 
+{
+	text-align: right;
+	padding: 2%;
+	flex-shrink: 0;
+	background-color: #001F3B;
+	color: white;
+}
+nav
+{
+	background-color: #001F3B;
+}
+label>.heading
+{
+	color: gray;
+}
+input[type="text"]:focus, input[type="email"]:focus
+{
+	box-shadow: none;
+	border-color: gray;
+}
+#parent
+{
+	width: 100%;
+	height: 80%;
+	display: table;
+}
+#child
+{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+#child button
+{
+	padding: 1.5rem 2rem;
+}
+.modal-header
+{
+	background-color:  #001f3bb3 !important;
+	color: white;
+}
+.error
+{
+	color: indianred;
+	font-weight: bold;
+}
+.nav-tabs .nav-item
+{
+	width: 50%;
+}
+.nav-item .active
+{
+	background-color: white;
+	
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link
+{
+	color: #001f3bb3;
+}
+.nav-tabs .nav-link.active
+{
+	color: white;
+    background-color: #001f3bb3;
+    border-color: transparent;
+}
+.nav-tabs .nav-link:focus
+{
+	box-shadow: none;
+}
+.custombtn, .custombtn:hover
+{
+	background-color:  #001f3bb3 !important;
+	color: white;
+}
+.search
+{
+	width: 50% !important; 
+    float: left;
+}
+.actions
+{
+	display: none;
+}
+.pagination li
+{
+	margin-right: 2%;
+	cursor: grab;
+}
+.pagination li a
+{
+	cursor: grab;
+}
+.pagination .active
+{
+	color: blue;
+    text-decoration: underline;
+}
+.interesteduser .search
+{
+	display: none !important;
+}

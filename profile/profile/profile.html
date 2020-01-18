@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lpu.in</title>
+<link href="css/profile.css" rel="stylesheet" type="text/css" media="screen">
+<script type="text/javascript">
+function f1()
+{
+var user=document.forms['form1']['user'].value;
+if(user=="")
+  {
+alert('this field is required');
+return false;	
+  }
+var father=document.forms['form1']['father'].value;
+if(father=="")
+  {
+alert('this field is required');
+return false;	
+  }
+ var day=document.forms['form1']['day'].value;
+if(day=="")
+  {
+alert('this field is required');
+return false;	
+  } 
+  var mon=document.forms['form1']['mon'].value;
+if(mon=="")
+  {
+alert('this field is required');
+return false;	
+  } 
+  var year=document.forms['form1']['year'].value;
+if(year=="")
+  {
+alert('this field is required');
+return false;	
+  }
+  var address=document.forms['form1']['address'].value;
+if(address=="")
+  {
+alert('this field is required');
+return false;	
+  }
+  var email=document.forms['form1']['email'].value;
+if(email=="")
+  {
+alert('this field is required');
+return false;	
+  }
+  var number=document.forms['form1']['number'].value;
+if(number=="")
+  {
+alert('this field is required');
+return false;	
+  }
+   var email=document.forms['form1']['email'].value
+var re1=/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+var x1=re1.test(email);
+if(x1==false)
+{
+	alert('invalid email')
+	return false;
+	}
+
+var number=document.forms['form1']['number'].value;
+if(number.length!=10)
+{
+alert('invalid number');
+return false;
+}
+}
+</script>
+</head>
+<body>
+<div id="main">
+
+<div id="header"><center><b><h1>REGISTER PAGE</h1></b></center></div>
+<div id="blank1"></div>
+<div id="table">
+<table cellpadding="5">
+<form action="webpage.html" method="post" name="form1"  onSubmit="return f1()">
+<tr>
+<td><label>name</label></td>
+<td><input type="text" name="user"  id="user" autofocus placeholder=""></td>
+</tr>
+<tr>
+<td><label>father name</label></td>
+<td><input type="text" name="father" id="father"></td>
+</tr>
+<tr>
+<td><label>Date of birth</label></td>
+<!--<td><input type="number" value="day" placeholder="DAY"></td> -->
+<td>
+<label>day</label>
+<select name="day" id="day">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>N
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<label>month</label>
+<select name="mon" id="mon">
+<option value="1">jan</option>
+<option value="2">feb</option>
+<option value="3">march</option>
+<option value="4">april</option>
+<option value="5">may</option>
+<option value="6">june</option>
+<option value="7">july</option>
+<option value="8">august</option>
+<option value="9">september</option>
+<option value="10">october</option>
+<option value="11">november</option>
+<option value="12">december</option>
+</select>
+<label>year</label>
+<select name="year" id="year">
+<option value="11">1991</option>
+<option value="12">1992</option>
+<option value="13">1993</option>
+<option value="14">1994</option>
+<option value="15">1995</option>
+<option value="16">1996</option>
+<option value="17">1997</option>
+<option value="18">1998</option>
+<option value="19">1999</option>
+<option value="20">2000</option>
+<option value="21">2001</option>
+<option value="22">2002</option>
+</select>
+<!--<label>date of birth</label>
+<input tye="date" name="D.O.B">
+</td>
+</tr>-->
+<tr>
+<td><label>address</label></td>
+<td><textarea name="address" id="address"></textarea></td>
+</tr>
+<tr>
+<td><label>email</label></td>
+<td><input type="text" id="email "name="email"></td>
+</tr>
+<tr>
+<td><label>contact no.</label></td>
+<td><input type="number"  name="number" id="number" value="number"></td>
+</tr>
+<tr>
+<td><label>gender</label></td>
+<td>male<input type="radio" name="gender" value="male" id="gender">
+female<input type="radio" name="gender" value="female"></td>
+</tr>
+<tr>
+<td><input type="submit" value="SUBMIT">
+<input type="reset" value="RESET"></td>
+</tr>
+</table>
+
+</div>
+
+</body>
+</html>

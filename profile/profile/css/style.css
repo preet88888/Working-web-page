@@ -1,0 +1,650 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+		background-color:#C3C3C3;
+		}
+#left{
+	height:650px;
+	width:150px;
+	padding-top:100px;
+	background-color:#fff;
+	border-radius:20px;
+	float:left;
+	position:relative;
+	
+	}
+#bid
+{
+height:70px;
+width:100px;
+background-image:url(../../../Documents/Unnamed%20Site%202/bid1.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+margin:10px 20px 0px 23px;
+float:inherit;
+
+}
+#outbid{
+	height:25px;
+	width:100px;
+	background-color:#fff;
+	float:left;
+	padding:0px;
+	margin:0px 20px 0px 23px;
+}
+#home
+{
+height:50px;
+width:50px;
+background-image:url(file:///C|/Users/USER/Desktop/profile/images/home.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+padding:0px;
+margin:50px 20px 0px 50px;
+}
+#screw{
+	height:75px;
+	width:100px;
+	background-color:#C3C3C3;
+	border-bottom-left-radius:20px;
+	border-top-left-radius:20px;
+	float:left;
+	
+	
+	padding:0px 0px 0px 30px;;
+	margin:20px 0px 0px 30px;
+}
+#gavel
+{
+height:40px;
+width:40px;
+
+background-image:url(../../../Documents/Unnamed%20Site%202/gg.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+padding:0px;
+margin:20px 0px 0px 0px;
+}
+#bell
+{
+height:70px;
+width:80px;
+background-image:url(../../../Documents/Unnamed%20Site%202/bellp.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+padding:0px;
+margin:20px 20px 0px 35px;
+}
+#hexa
+{
+height:35px;
+width:35px;
+background-image:url(../../../Documents/Unnamed%20Site%202/hexi.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+padding:0px;
+margin:20px 20px 0px 57px;
+}
+#quest
+{
+height:80px;
+width:80px;
+background-image:url(../../../Documents/Unnamed%20Site%202/quest.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+padding:0px;
+margin:20px 20px 0px 35px;
+}
+#user
+{
+height:40px;
+width:40px;
+background-image:url(../../../Documents/Unnamed%20Site%202/user.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+padding:0px;
+margin:20px 20px 0px 54px;
+}
+#search
+{
+height:50px;
+width:700px;
+background-color:#fff;
+border-radius:20px;
+float:left;
+padding:0px;
+margin:0px 0px 0px 10px;;
+}
+#table
+{
+height:30px;
+width:500px;
+background-color:#fff;
+border-radius:20px;
+margin:15px 10px 15px 17px;;
+float:left;
+padding:0px 0px 0px 10px;
+
+}
+#sear
+{
+height:50px;
+width:100px;
+background-color:#131F62;
+border-bottom-right-radius:20px;
+border-top-right-radius:20px;
+float:right;
+padding:0px;
+margin:0px 0px 0px 0px;
+}
+#serp
+{
+height:40px;
+width:70px;	
+background-image:url(../../../Documents/Unnamed%20Site%202/b1.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+margin:5px 20px 10px 0px;
+float:inherit;
+padding:0px;
+
+}
+#play
+{
+height:370px;
+width:420px;		
+background-color:white;
+border-radius:20px;
+float:left;
+margin:0px 0px 0px 20px;
+}
+#lead
+{
+height:330px;
+width:400px;		
+background-color:white;
+border-radius:20px;
+float:left;
+padding:10px 0px 10px 10px;
+margin:10px 15px 0px 10px;
+}
+table
+{
+width:380px;
+height:300px;
+background-color:white;
+margin:auto;
+border-color:#131F62;
+text-align:center;
+table-layout:fixed;	
+}
+tr{
+	padding: 5px 0 0 0;
+	border-radius:30px;	
+	}
+ tr,td,th{
+padding:0px;
+border-radius:30px;	
+color:white;
+border:none;
+
+
+border-collapse:collapse;
+font-size:18px;
+font-family:Arial;
+background:linear-gradient(top,#D6D6D6 0%, #E4E4E4 100%);
+background: -webkit-linear-gradient(top,#D6D6D6 0%, #E4E4E4 100%);
+
+	}
+	td:hover{
+		background:#131F62;
+		}
+#star
+{
+	height:300px;
+width:345px;
+position:relative;
+top:-300px;
+margin:0px 0px 0px 10px;
+background-color:white;
+border-radius:20px;
+float:left;
+clear:right;
+}
+#game
+{
+	height:150px;
+width:200px;
+margin:20px 0px 0px 70px;
+background-image:url(../../../Documents/Unnamed%20Site%202/game.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+}
+#small
+{
+height:35px;
+width:40px;
+margin:20px 0px 0px 40px;
+background-image:url(../../../Documents/Unnamed%20Site%202/game.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+}
+#play1
+{
+height:35px;
+width:40px;
+margin:20px 0px 0px 40px;
+background-image:url(../../../Documents/Unnamed%20Site%202/play.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+float:left;
+}
+#now
+{
+height:300px;
+width:345px;
+position:relative;
+top:-300px;
+margin:0px 0px 0px 10px;
+background-color:white;
+border-radius:20px;
+float:left;
+clear:right;
+}
+#rate
+{
+height:20px;
+width:28px;
+margin:20px 0px 0px 40px;
+/*background-image:url(../../../Documents/Unnamed%20Site%202/rating.png);
+background-size:100% 100%;
+background-repeat:no-repeat;*/
+position:relative;
+top:-143px;
+left:125px;
+float:left;
+}
+#time
+{
+height:120px;
+width:120px;
+background-color:white;
+background-image:url(../../../Documents/Unnamed%20Site%202/24.png);
+background-size:100% 100%;
+
+margin:0px 0px 0px 40px;
+border-radius:50px;
+position:relative;
+top:-140px;
+left:180px;
+right:-40px;
+
+float left;
+
+}
+#bidnow
+{
+height:60px;
+width:140px;
+background-color:#131F62;
+margin:10px 0px 0px 100px;
+border-radius:10px;
+position:relative;
+
+top:-130px;
+float:left;	
+}
+#let
+{
+height:20px;
+width:80px;
+background-color:#131F62;
+margin:17px 0px 0px 16px;
+float:left;
+}
+#gave
+{
+height:30px;
+width:30px;
+background-color:#131F62;
+background-image:url(../../../Documents/Unnamed%20Site%202/gvel.png);
+background-size:100% 100%;
+border-radius:5px;
+margin:0px 0px 0px 40px;
+margin:14px 0px 0px 5px;
+float:left;
+}
+#feat{
+height:300px;
+width:347px;
+margin:10px 0px 0px 10px;
+background-color:white;
+border-radius:20px;
+position:relative;
+
+left:-709px;
+
+float:left;
+
+}
+#lett{
+height:30px;
+width:95px;
+margin:15px 0px 0px 22px;
+background-color:white;
+float:left;
+}
+#model
+{
+height:220px;
+width:240px;
+margin:10px 0px 0px 12px;
+background-color:#CCC;
+background:linear-gradient(left,#CCC 0%, #E2E2E2 20%);
+background: -webkit-linear-gradient(left,#CCC 0%, #E2E2E2 20%);
+opacity:20%;
+border-radius:20px;
+float:left;
+}
+.d
+{
+text-align:start;
+ font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+ font-size:13px	;
+ color:#000;
+}
+.s
+{
+text-align:start;
+ font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+ font-size:13px; 
+ 
+}
+#verify
+{
+height:50px;
+width:60px;
+background-image:url(../../../Documents/Unnamed%20Site%202/ver.png);
+background-size:100% 100%;
+margin:-15px 15px 0px 0px;
+float:right;
+	
+}
+#deli
+{
+height:40px;
+width:50px;
+background-image:url(../../../Documents/Unnamed%20Site%202/freee.png);
+background-size:100% 100%;
+margin:45px 17px 0px 0px;
+float:right;
+	
+}
+#warr
+{
+height:40px;
+width:50px;
+background-image:url(../../../Documents/Unnamed%20Site%202/warrr.png);
+background-size:100% 100%;
+margin:45px 17px 0px 0px;
+float:right;
+	
+}
+#wallet
+{
+height:210px;
+width:270px;
+margin:-300px 0px 0px 368px;
+background-color:white;
+border-radius:20px;
+/*position:relative;
+left:-1409px;*/
+
+float:left;
+
+}
+#lett1{
+height:30px;
+width:180px;
+margin:15px 0px 0px 22px;
+background-color:white;
+float:left;
+}
+#wall
+{
+height:90px;
+width:105px;	
+margin:15px 0px 0px 22px;
+background-image:url(../../../Documents/Unnamed%20Site%202/wallett.png);
+background-size:100% 100%;
+float:left;
+clear:both;
+}
+#bal
+{
+height:90px;
+width:105px;	
+margin:15px 0px 0px 22px;
+background-color:white;
+float:left;
+}
+#add
+
+{
+height:40px;
+width:140px;	
+margin:4px 0px 0px 22px;
+background-color:#12BC5A;
+border-radius:5px;
+float:left;
+clear:both;
+}
+#lett2
+{
+height:31px;
+width:100px;	
+margin:9px 0px 0px 5px;
+background-color:#12BC5A;
+border-radius:5px;
+float:left;
+}
+#plus
+{
+height:25px;
+width:25px;	
+margin:8px 0px 0px 05px;
+background-image:url(../../../Documents/Unnamed%20Site%202/plus.png);
+background-size:100% 100%;
+border-radius:5px;
+float:left;
+}
+#part
+{
+height:10px;
+width:60px;
+background-color:white;
+margin:8px 0px 0px 20px;
+float:left;	
+}
+#card
+{
+height:22px;
+width:60px;
+background-color:white;
+margin:2px 0px 0px 20px;
+float:left;	
+}	
+#vi
+{
+height:100%;
+width:30px;
+background-image:url(../../../Documents/Unnamed%20Site%202/vi.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+margin:0px;
+float:left;
+}
+#mas
+{
+height:100%;
+width:30px;
+background-image:url(../../../Documents/Unnamed%20Site%202/mas.png);
+background-size:100% 100%;
+background-repeat:no-repeat;
+margin:0px;
+float:left;
+}
+#chat
+{
+height:79px;
+width:270px;
+background-color:white;
+border-radius:20px;
+margin:-80px 0px 0px 368px;
+float:left;	
+}
+#chat1
+{
+height:60px;
+width:60px;
+margin:10px 0px 0px 10px;
+background-image:url(../../../Documents/Unnamed%20Site%202/chat3.png);
+background-size:100% 100%;
+float:left;
+}
+#chat2
+{
+height:40px;
+width:176px;
+margin:25px 0px 0px 5px;
+background-color:white;
+
+float:left;	
+}
+#active
+{
+height:298px;
+width:505px;
+margin:-290px 00px 0px 280px;
+background-color:white;
+border-radius:20px;
+float:left;	
+}
+#letter
+{
+height:25px;
+width:170px;
+margin:15px 00px 0px 22px;
+background-color:white;
+float:left;	
+}
+#p1
+{
+	height:73px;
+	width:485px;
+	margin:10px 10px 0px 10px;
+	background-color:#E6E6E6;
+	border-radius:20px;
+	float:right;
+	
+}
+#p11
+{
+  height:53px;
+  width:70px;
+  margin:9px 13px 13px 13px;
+  background-image:url(../../../Documents/Unnamed%20Site%202/camera.jpg);
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  	
+}
+#letter1
+{
+  height:53px;
+  width:200px;
+  margin:9px 13px 13px 0px;
+ 
+  float:left;
+  	
+}
+#p2
+{
+	height:73px;
+	width:485px;
+	margin:10px 10px 0px 10px;
+	background-color:#E6E6E6;
+	border-radius:20px;
+	float:right;
+	
+}
+#p22
+{
+  height:53px;
+  width:70px;
+  margin:9px 13px 13px 13px;
+  background-image:url(../../../Documents/Unnamed%20Site%202/ear.jpg);
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  	
+}
+#p3
+{
+	height:73px;
+	width:485px;
+	margin:10px 0px 0px 10px;
+	background-color:#E6E6E6;
+	border-radius:20px;
+	float:right;
+	
+}
+#p33
+{
+  height:53px;
+  width:70px;
+  margin:9px 13px 13px 13px;
+  background-image:url(../../../Documents/Unnamed%20Site%202/mob.jpg);
+  background-size:100% 100%;
+  border-radius:10px;
+  float:left;
+  	
+}
+#bidnow1
+{
+height:30px;
+width:140px;
+background-color:#131F62;
+margin:-60px 0px 0px 300px;
+border-radius:10px;
+float:left;	
+}
+#let4
+{
+height:20px;
+width:80px;
+background-color:#131F62;
+margin:3px 0px 0px 16px;
+float:left;
+}
+#gave1
+{
+height:25px;
+width:30px;
+background-color:#131F62;
+background-image:url(../../../Documents/Unnamed%20Site%202/gvel.png);
+background-size:100% 100%;
+border-radius:5px;
+margin:0px 0px 0px 40px;
+margin:2px 0px 0px 3px;
+float:left;
+}
